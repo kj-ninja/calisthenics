@@ -1,0 +1,33 @@
+
+.errorContainer{
+  height:92vh;
+  :before{
+    content: "";
+    position: absolute;
+    top: 15%;
+    left: 22.5%;
+    width: 60%;
+    height: 80%;
+    opacity: .1;
+    z-index: -1;
+    background-image: url("../../assets/404errorImg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .ant-result-title {
+    margin-top: 2.5%;
+    font-size: 8rem;
+    color: black;
+  }
+
+  .ant-result-subtitle{
+    margin-top: 22.5%;
+    font-size: 2.4rem;
+    color: black;
+  }
+
+  .ant-result-icon  {
+    display: none;
+    padding-top: 6%;
+  }
+}
